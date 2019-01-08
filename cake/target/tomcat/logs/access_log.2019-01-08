@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [08/Jan/2019:17:23:07 +0800] "GET /MavenWebPrj/index.jsp HTTP/1.1" 200 51 http-bio-8888-exec-1 4263
+0:0:0:0:0:0:0:1 - - [08/Jan/2019:17:23:07 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8888-exec-2 0
