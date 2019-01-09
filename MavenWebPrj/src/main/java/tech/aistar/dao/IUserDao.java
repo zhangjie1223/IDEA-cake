@@ -19,4 +19,11 @@ public interface IUserDao {
      */
     void delById(Integer id);
 
+    /**
+     * 根据用户名查找用户
+     * @param username 传入的用户名
+     * @return 该用户名对应的单个用户对象
+     */
+    User getByUserName(String username);
+
 }

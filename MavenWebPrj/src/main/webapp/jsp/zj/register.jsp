@@ -1,0 +1,151 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: 张杰
+  Date: 2019/1/9
+  Time: 11:31
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>蒂芙尼蛋糕官网|TIFFANY CAKE</title>
+    <!--引入bootstrap.min.css文件-->
+    <link rel="stylesheet" type="text/css" href="../../plugins/bootstrap/css/bootstrap.css" />
+    <!--引入自定义样式-->
+    <link rel="stylesheet" type="text/css" href="../../css/index.css" />
+    <style type="text/css">
+
+        #login{
+            /*设置边框的大小,线条,颜色*/
+            border: 1px solid #999;
+            /*设置div的宽度*/
+            width: 35%;
+            /**div居中显示**/
+            margin: auto;
+            /**margin padding关于css中的盒子模型中的内容**/
+            padding: 20px;
+            /**距离相邻元素上边的距离是50px**/
+            margin-top: 150px;
+            /*设置边框为圆角*/
+            /*border-radius: 20px;*/
+            /*设置边框的阴影部分*/
+            /*box-shadow: 2px 2px 4px #000;*/
+            background-color: white;
+        }
+
+        #login_text{
+            /*设置字体颜色*/
+            color:pink;
+            /*设置字体阴影*/
+            /*text-shadow: 2px 2px 0px #000;*/
+            /*设置字体的大小*/
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <!--导航-->
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#example-navbar-collapse">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">蒂芙尼蛋糕官网|TIFFANY CAKE</a>
+                </div>
+                <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">首页</a></li>
+                        <li><a href="#">产品介绍</a></li>
+                        <li><a href="#">制作方式</a></li>
+                        <li><a href="#">留言板</a></li>
+                        <li><a href="#">帮助中心</a></li>
+                        <li><a href="#">关于我们</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                其它 <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">xxx</a></li>
+                                <li><a href="#">xxx</a></li>
+                                <li><a href="#">xxx</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">xxx</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">xxx</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+    <div style="background-image:url(../../imgs/bgzhuce.jpg)">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div id="login">
+                <form class="form-horizontal" role="form">
+                    <fieldset>
+                        <legend><h3 id="login_text">用户注册入口</h3></legend>
+                        <div class="form-group has-feedback">
+                            <label for="username" class="col-sm-2 control-label">用户名</label>
+                            <div class="col-md-5">
+                                <input type="text" class="form-control" id="username" placeholder="请输入用户名">
+                                <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                            </div>
+                        </div>
+                        <div class="form-group has-feedback">
+                            <label for="password" class="col-sm-2 control-label">密码</label>
+                            <div class="col-md-5">
+                                <input type="password" class="form-control" id="password" placeholder="请输入密码">
+                                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default">确认</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <hr>
+    </div>
+</div>
+<div class="footer-copyright">
+    <div class="container">
+        <p>
+            <span>Copyright &copy;2012-2019 蒂芙尼蛋糕官网|TIFFANY CAKE版权所有</span>
+            <span>沪ICP备12045835</span>
+            <span>沪公网安备31010802001150</span>
+            <span></span>
+        </p >
+    </div>
+</div>
+
+<!--引入jquery文件-->
+<script src="../../plugins/jquery/jquery.min.js" type="text/javascript"></script>
+<!--引入bootstrap.js-->
+<script type="text/javascript" src="../../plugins/bootstrap/js/bootstrap.js"></script>
+
+</body>
+</html>
