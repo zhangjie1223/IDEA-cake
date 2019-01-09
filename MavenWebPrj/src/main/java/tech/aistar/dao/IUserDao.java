@@ -19,4 +19,7 @@ public interface IUserDao {
      */
     void delById(Integer id);
 
+
+    void getbyusername(User);
+
 }
